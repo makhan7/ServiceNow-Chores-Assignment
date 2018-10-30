@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Send a 'GET' request to '/api/now/table/incident'</description>
+        <display_name>Send REST Request - Inbound</display_name>
+        <inputs/>
+        <order>1</order>
+        <step_config display_value="Send REST Request - Inbound">e00571a10b3222000b7da95e93673a8f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>b6e2b77cdb2c2300091488094896198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send REST Request - Inbound</sys_name>
+        <sys_package display_value="ChoresZero" source="x_264731_choreszer">ce0de876db1423000914880948961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChoresZero">ce0de876db1423000914880948961999</sys_scope>
+        <sys_update_name>sys_atf_step_b6e2b77cdb2c2300091488094896198b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <table/>
+        <test display_value="REST Call">1e92b37cdb2c2300091488094896199a</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b6e2b77cdb2c2300091488094896198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e2b77cdb2c2300091488094896198b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>36e2b77cdb2c2300091488094896198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <value/>
+        <variable display_value="">020a6af09fd32200ef4afa7dc67fcfec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e2b77cdb2c2300091488094896198b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>36e2b77cdb2c2300091488094896198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <value>{"sysparm_query":"number =INC0000055","sysparm_limit":"1"}</value>
+        <variable display_value="">58408e250b3222000b7da95e93673a5c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e2b77cdb2c2300091488094896198b</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>3ae2b77cdb2c2300091488094896198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <value>{"Content-Type":"application/json","Accept":"application/json"}</value>
+        <variable display_value="">cec002650b3222000b7da95e93673aae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e2b77cdb2c2300091488094896198b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>72e2b77cdb2c2300091488094896198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <value>/api/now/table/incident</value>
+        <variable display_value="">50bff9250b3222000b7da95e93673a9b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e2b77cdb2c2300091488094896198b</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>bee2b77cdb2c2300091488094896198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <value/>
+        <variable display_value="">81e042650b3222000b7da95e93673aa2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b6e2b77cdb2c2300091488094896198b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 16:44:19</sys_created_on>
+        <sys_id>fae2b77cdb2c2300091488094896198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 16:44:19</sys_updated_on>
+        <value>get</value>
+        <variable display_value="">59877da10b3222000b7da95e93673a56</variable>
+    </sys_variable_value>
+</record_update>

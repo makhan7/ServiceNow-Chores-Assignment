@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Excel_test_upload" max_length="40" name="x_264731_choreszer_excel_data_test" type="collection">
+        <element attributes="import_attribute_name=Monitor Name,edge_encryption_enabled=true" label="Monitor Name" max_length="40" name="u_monitor_name" type="string"/>
+        <element attributes="import_attribute_name=Result,edge_encryption_enabled=true" label="Result" max_length="77" name="u_result" type="string"/>
+        <element attributes="import_attribute_name=Sitescope Host,edge_encryption_enabled=true" label="Sitescope Host" max_length="40" name="u_sitescope_host" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Time,edge_encryption_enabled=true" label="Time" max_length="40" name="u_time" type="string"/>
+    </element>
+</database>

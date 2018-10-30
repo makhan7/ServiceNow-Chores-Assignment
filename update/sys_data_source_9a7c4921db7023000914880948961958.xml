@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>jdbc:sqlserver://VCAKSA69901M5Q:1433;instanceName=VCAKSA69901M5Q;selectMethod=cursor;databaseName=atm_dev</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name>atm_dev</database_name>
+        <database_port>1433</database_port>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>com.microsoft.sqlserver.jdbc.SQLServerDriver</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>m5q data source</import_set_table_label>
+        <import_set_table_name>x_264731_choreszer_m5q_data_source</import_set_table_name>
+        <instance_name>VCAKSA69901M5Q</instance_name>
+        <jdbc_password>yH+5ABSDNVe41P1kJ9qWwg==</jdbc_password>
+        <jdbc_server>VCAKSA69901M5Q</jdbc_server>
+        <jdbc_user_name>US\makhan8</jdbc_user_name>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>M5Q MSSQL Data</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-26 23:10:25</sys_created_on>
+        <sys_id>9a7c4921db7023000914880948961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>M5Q MSSQL Data</sys_name>
+        <sys_package display_value="ChoresZero" source="x_264731_choreszer">ce0de876db1423000914880948961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChoresZero">ce0de876db1423000914880948961999</sys_scope>
+        <sys_update_name>sys_data_source_9a7c4921db7023000914880948961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-26 23:10:25</sys_updated_on>
+        <table_name>dbo_users</table_name>
+        <type>JDBC</type>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

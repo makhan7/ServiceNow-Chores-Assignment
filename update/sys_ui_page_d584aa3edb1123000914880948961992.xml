@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>display active incidents with description</description>
+        <direct>false</direct>
+        <endpoint>x_264731_choreszer_Incidents_active.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g2:evaluate>
+var gr = new GlideRecord('incident');
+gr.addQuery('active',1);
+gr.query();
+</g2:evaluate>
+
+<table width="50%" border ="1">
+<tr class ="header">
+<td colspan="2"> Active Incidents</td>
+</tr>
+<j2:while test ="$[gr.next()]">
+<tr>
+<td> $[gr.getValue('number')]</td>
+<td> $[gr.getValue('short_description')]</td>
+</tr>
+</j2:while>
+</table>
+</j:jelly>]]></html>
+        <name>Incidents_active</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 22:56:57</sys_created_on>
+        <sys_id>d584aa3edb1123000914880948961992</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Incidents_active</sys_name>
+        <sys_package display_value="ChoresZero" source="x_264731_choreszer">ce0de876db1423000914880948961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChoresZero">ce0de876db1423000914880948961999</sys_scope>
+        <sys_update_name>sys_ui_page_d584aa3edb1123000914880948961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 23:11:07</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_monitor_name" label="Monitor Name" language="en" table="x_264731_choreszer_excel_data_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_monitor_name</element>
+            <help/>
+            <hint/>
+            <label>Monitor Name</label>
+            <language>en</language>
+            <name>x_264731_choreszer_excel_data_test</name>
+            <plural>Monitor Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 12:54:37</sys_created_on>
+            <sys_id>cac71982db3023000914880948961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Monitor Name</sys_name>
+            <sys_package display_value="ChoresZero" source="x_264731_choreszer">ce0de876db1423000914880948961999</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ChoresZero">ce0de876db1423000914880948961999</sys_scope>
+            <sys_update_name>sys_documentation_x_264731_choreszer_excel_data_test_u_monitor_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 12:54:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

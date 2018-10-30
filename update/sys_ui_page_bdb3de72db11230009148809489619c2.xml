@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>customer data form</description>
+        <direct>true</direct>
+        <endpoint>x_264731_choreszer_Customer_Form.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<!-- ============================================== -->
+<!-- 'j' is core jelly tag; 'g' is ServiceNow defined namespace used in Jelly Script-->
+<!-- Every Jelly tag should be written between opening & closing 'j:jelly' tags only. if it is written outside
+'j:jelly' tags that will not be evaluated -->
+<!-- ============================================== -->
+Hello World
+<input type ="button"/>
+<input type ="text"/>
+
+<g:evaluate>
+var words =["Hello", "Jelly", "World"];
+<!-- 'words' above is Array of strings; this is regular javascript being used here; this will be used by Jelly core tag using JEXL = Java Expression Language -->
+</g:evaluate>
+<j:forEach var ="jvar_word" items="${words}">
+<p>${jvar_word}</p>
+</j:forEach>
+</j:jelly>]]></html>
+        <name>Customer_Form</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 21:44:15</sys_created_on>
+        <sys_id>bdb3de72db11230009148809489619c2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Customer_Form</sys_name>
+        <sys_package display_value="ChoresZero" source="x_264731_choreszer">ce0de876db1423000914880948961999</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ChoresZero">ce0de876db1423000914880948961999</sys_scope>
+        <sys_update_name>sys_ui_page_bdb3de72db11230009148809489619c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 22:50:57</sys_updated_on>
+    </sys_ui_page>
+</record_update>
